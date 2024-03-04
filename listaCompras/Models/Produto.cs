@@ -6,8 +6,8 @@ namespace listaCompras.Models
     {
         [PrimaryKey, AutoIncrement] 
         public int Id { get; set; }
-        public string descricao { get; set; }
+        public string Descricao { get; set; }
         public double Quantidade {  get; set; }
-        public double Preço { get; set; }
+        public double Preco { get; set; }
     }   
 }
