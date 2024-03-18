@@ -6,7 +6,7 @@
     <ContentPage.ToolbarItems>
         <ToolbarItem Text="Salvar" Clicked="ToolbarItem_Clicked"/>
     </ContentPage.ToolbarItems>
-    
+
     <ContentPage.Content>
         <VerticalStackLayout>
             <Label Text="Descrição: "/>
