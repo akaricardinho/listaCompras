@@ -39,8 +39,7 @@ namespace listaCompras.Helpers
 
         public Task<List<Produto>> Search(string q)
         {
-            string sql = $"SELECT * FROM Produto WHERE" +
-                "descricao Like '% " + q + "%'";
+            string sql = "SELECT * FROM Produto WHERE descricao Like '%" + q + "%'";
 
             return _conn.QueryAsync<Produto>(sql);
         } 

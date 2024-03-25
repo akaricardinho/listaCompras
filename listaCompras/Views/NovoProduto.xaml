@@ -10,13 +10,13 @@
     <ContentPage.Content>
         <VerticalStackLayout>
             <Label Text="Descrição: "/>
-            <Entry x:Name="txt_descricao" Text="{Binding Descricao}"/>
+            <Entry x:Name="txt_descricao"/>
 
             <Label Text="Quantidade: "/>
-            <Entry x:Name="txt_quantidade" Text="{Binding Quantidade}"/>
+            <Entry x:Name="txt_quantidade"/>
 
             <Label Text="Preço: "/>
-            <Entry x:Name="txt_preco" Text="{Binding Preco}"/>
+            <Entry x:Name="txt_preco"/>
         </VerticalStackLayout>
     </ContentPage.Content>
 </ContentPage>
